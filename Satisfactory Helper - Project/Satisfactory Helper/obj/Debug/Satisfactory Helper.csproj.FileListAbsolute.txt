@@ -1,0 +1,10 @@
+D:\All Coding Projects\Satisfactory Helper\Satisfactory Helper\bin\Debug\Satisfactory Helper.exe.config
+D:\All Coding Projects\Satisfactory Helper\Satisfactory Helper\bin\Debug\Satisfactory Helper.exe
+D:\All Coding Projects\Satisfactory Helper\Satisfactory Helper\bin\Debug\Satisfactory Helper.pdb
+D:\All Coding Projects\Satisfactory Helper\Satisfactory Helper\obj\Debug\Satisfactory_Helper.Form1.resources
+D:\All Coding Projects\Satisfactory Helper\Satisfactory Helper\obj\Debug\Satisfactory_Helper.Properties.Resources.resources
+D:\All Coding Projects\Satisfactory Helper\Satisfactory Helper\obj\Debug\Satisfactory Helper.csproj.GenerateResource.Cache
+D:\All Coding Projects\Satisfactory Helper\Satisfactory Helper\obj\Debug\Satisfactory Helper.csproj.CoreCompileInputs.cache
+D:\All Coding Projects\Satisfactory Helper\Satisfactory Helper\obj\Debug\Satisfactory Helper.exe
+D:\All Coding Projects\Satisfactory Helper\Satisfactory Helper\obj\Debug\Satisfactory Helper.pdb
+D:\All Coding Projects\Satisfactory Helper\Satisfactory Helper\obj\Debug\Satisfactory Helper.csprojResolveAssemblyReference.cache
