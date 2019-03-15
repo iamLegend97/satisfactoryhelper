@@ -1,4 +1,4 @@
-# satisfactoryhelper
+# iamLegend's Satisfactory Helper
 A helper for satisfactory calculations
 
 __If you just want to run the program__
