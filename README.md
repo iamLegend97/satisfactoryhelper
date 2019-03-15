@@ -18,6 +18,8 @@ __Currently not supported (plan to include in future):__
 - Adding materials after tier 3
 - Tree which shows heirarachy of buildings and where all their outputs go
 
+![alt text](https://github.com/iamLegend97/satisfactoryhelper/blob/master/satisfactory%20helper%20v1.1.JPG)
+
 __Changelog__
 __V1.1 3/15/19__
 - Added dynamic listing to allow for infinite items/buildings to be displayed
