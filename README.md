@@ -2,8 +2,8 @@
 ## A helper for satisfactory calculations
 
 __If you just want to run the program__
-1. Download Satisfactory Helper VX.X
-2. Run Satisfactory Helper.exe in SatisfactoryHelperV1/program/core/
+1. Download Satisfactory Helper Vx.x
+2. Run Satisfactory Helper.exe in SatisfactoryHelperx.x/program/core/
 3. Simply input your desired output rates in the boxes to the left, paired with item you desire. When ready, hit calculate.
 
 __If you want to download the project__
