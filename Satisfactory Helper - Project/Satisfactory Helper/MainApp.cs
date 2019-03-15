@@ -343,6 +343,7 @@ namespace Satisfactory_Helper
                 tempPicBox.TabStop = false;
                 tempPicBox.Visible = true;
                 tempPicBox.Image = buildingCounts.ElementAt(i).getImage();
+                tempPicBox.BorderStyle = BorderStyle.FixedSingle;
                 //buildingsNeededImages.Add(tempPicBox);
 
                 //add button/hover functionality to the image
@@ -359,7 +360,20 @@ namespace Satisfactory_Helper
 
         private void buildingImage_Click(object sender, EventArgs e)
         {
+            //make sure there isnt already a machine options tab open
+            FormCollection fc = Application.OpenForms;
+            foreach(Form f in fc)
+            {
+                if(f is MachineOptions)
+                {
+                    return;
+                }
+            }
+
+            //create and open a new machine options window
             MachineOptions MO = new MachineOptions();
+
+
             MO.Show();
 
 
