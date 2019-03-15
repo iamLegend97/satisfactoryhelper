@@ -28,3 +28,5 @@ __V1.1 3/15/19__
 - Tooltips
 - Fixed an issue where some images currently not in the game were returning filenotfound exception.
 - Fixed an issue where screws were not correctly counting towards the total number of constructors needed.
+- Fixed issue where items and buildings were not being properly removed from the screen.
+- Disabled user's ability to create infinite buildings options tabs (note this is just a placeholder)
