@@ -24,3 +24,5 @@ __V1.1 3/15/19__
 - QOL improvements
 - Slight interface change
 - Tooltips
+- Fixed an issue where some images currently not in the game were returning filenotfound exception.
+- Fixed an issue where screws were not correctly counting towards the total number of constructors needed.
