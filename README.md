@@ -1,5 +1,5 @@
 # iamLegend's Satisfactory Helper
-A helper for satisfactory calculations
+## A helper for satisfactory calculations
 
 __If you just want to run the program__
 1. Download Satisfactory Helper V1
