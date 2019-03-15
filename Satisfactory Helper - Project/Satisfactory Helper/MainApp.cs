@@ -22,10 +22,10 @@ namespace Satisfactory_Helper
         public bool runPrev = false;
 
         //make lists for all displays
-        List<Label> itemsNeededLabels = new List<Label>();
-        List<Label> buildingsNeededLabels = new List<Label>();
-        List<PictureBox> itemsNeededImages = new List<PictureBox>();
-        List<PictureBox> buildingsNeededImages = new List<PictureBox>();
+        //List<Label> itemsNeededLabels = new List<Label>();
+        //List<Label> buildingsNeededLabels = new List<Label>();
+        //List<PictureBox> itemsNeededImages = new List<PictureBox>();
+        //List<PictureBox> buildingsNeededImages = new List<PictureBox>();
 
 
         private void calcButton_Click(object sender, EventArgs e)
@@ -187,22 +187,17 @@ namespace Satisfactory_Helper
                 }
             }
 
-            //making new item labels and images
+            
             if (runPrev)
             {
                 //clear items and images from prev run
-                for(int i = 0; i < itemsNeededLabels.Count; i++)
+                for(int i = itemsPanel.Controls.Count; i > 0 ; i--)
                 {
-                    Controls.Remove(itemsNeededLabels.ElementAt(i));
-                    itemsNeededLabels.Remove(itemsNeededLabels.ElementAt(i));
-                }
-                for (int i = 0; i < itemsNeededImages.Count; i++)
-                {
-                    Controls.Remove(itemsNeededImages.ElementAt(i));
-                    itemsNeededImages.Remove(itemsNeededImages.ElementAt(i));
+                    itemsPanel.Controls.RemoveAt(0);
                 }
             }
-            
+
+            //making new item labels and images
             for (int i = 0; i < totalResourcePerMin.Count; i++)
             {
                 //make the label for the item and add to list
@@ -216,7 +211,7 @@ namespace Satisfactory_Helper
                 tempLabel.Size = new Size(36, 20);
                 tempLabel.Text = totalResourcePerMin.ElementAt(i).getRate() + " " + totalResourcePerMin.ElementAt(i).getName() + "/min";
                 tempLabel.TabStop = false;
-                itemsNeededLabels.Add(tempLabel);
+                //itemsNeededLabels.Add(tempLabel);
 
                 //add to the panel space
                 itemsPanel.Controls.Add(tempLabel);
@@ -230,7 +225,7 @@ namespace Satisfactory_Helper
                 tempPicBox.Size = new Size(75, 75);
                 tempPicBox.TabStop = false;
                 tempPicBox.Image = totalResourcePerMin.ElementAt(i).getImage();
-                itemsNeededImages.Add(tempPicBox);
+                //itemsNeededImages.Add(tempPicBox);
 
                 //add to the panel space
                 itemsPanel.Controls.Add(tempPicBox);
@@ -312,16 +307,10 @@ namespace Satisfactory_Helper
             //place images and labels for all buildings in buildingCounts
             if (runPrev)
             {
-                //clear items and images from prev run
-                for (int i = 0; i < buildingsNeededLabels.Count; i++)
+                //clear buildings and images from prev run
+                for (int i = buildingsPanel.Controls.Count; i > 0; i--)
                 {
-                    Controls.Remove(buildingsNeededLabels.ElementAt(i));
-                    itemsNeededLabels.Remove(buildingsNeededLabels.ElementAt(i));
-                }
-                for (int i = 0; i < buildingsNeededImages.Count; i++)
-                {
-                    Controls.Remove(buildingsNeededImages.ElementAt(i));
-                    buildingsNeededImages.Remove(buildingsNeededImages.ElementAt(i));
+                    buildingsPanel.Controls.RemoveAt(0);
                 }
             }
 
@@ -339,7 +328,7 @@ namespace Satisfactory_Helper
                 tempLabel.Text = buildingCounts.ElementAt(i).getAmount() + " " + buildingCounts.ElementAt(i).getName();
                 tempLabel.TabStop = false;
                 tempLabel.Visible = true;
-                buildingsNeededLabels.Add(tempLabel);
+                //buildingsNeededLabels.Add(tempLabel);
 
                 //add to the panel space
                 buildingsPanel.Controls.Add(tempLabel);
@@ -354,7 +343,7 @@ namespace Satisfactory_Helper
                 tempPicBox.TabStop = false;
                 tempPicBox.Visible = true;
                 tempPicBox.Image = buildingCounts.ElementAt(i).getImage();
-                buildingsNeededImages.Add(tempPicBox);
+                //buildingsNeededImages.Add(tempPicBox);
 
                 //add button/hover functionality to the image
                 tempPicBox.Click += new EventHandler(buildingImage_Click);

@@ -19,3 +19,14 @@ D:\All Coding Projects\Satisfactory Helper - Project\Satisfactory Helper\obj\Deb
 D:\All Coding Projects\Satisfactory Helper - Project\Satisfactory Helper\obj\Debug\Satisfactory Helper.pdb
 D:\All Coding Projects\Satisfactory Helper - Project\Satisfactory Helper\obj\Debug\Satisfactory_Helper.MainApp.resources
 D:\All Coding Projects\Satisfactory Helper - Project\Satisfactory Helper\obj\Debug\Satisfactory_Helper.MachineOptions.resources
+D:\All Coding Projects\satisfactoryhelper\Satisfactory Helper - Project\Satisfactory Helper\bin\Debug\Satisfactory Helper.exe.config
+D:\All Coding Projects\satisfactoryhelper\Satisfactory Helper - Project\Satisfactory Helper\bin\Debug\Satisfactory Helper.exe
+D:\All Coding Projects\satisfactoryhelper\Satisfactory Helper - Project\Satisfactory Helper\bin\Debug\Satisfactory Helper.pdb
+D:\All Coding Projects\satisfactoryhelper\Satisfactory Helper - Project\Satisfactory Helper\obj\Debug\Satisfactory Helper.csprojResolveAssemblyReference.cache
+D:\All Coding Projects\satisfactoryhelper\Satisfactory Helper - Project\Satisfactory Helper\obj\Debug\Satisfactory_Helper.MachineOptions.resources
+D:\All Coding Projects\satisfactoryhelper\Satisfactory Helper - Project\Satisfactory Helper\obj\Debug\Satisfactory_Helper.MainApp.resources
+D:\All Coding Projects\satisfactoryhelper\Satisfactory Helper - Project\Satisfactory Helper\obj\Debug\Satisfactory_Helper.Properties.Resources.resources
+D:\All Coding Projects\satisfactoryhelper\Satisfactory Helper - Project\Satisfactory Helper\obj\Debug\Satisfactory Helper.csproj.GenerateResource.Cache
+D:\All Coding Projects\satisfactoryhelper\Satisfactory Helper - Project\Satisfactory Helper\obj\Debug\Satisfactory Helper.csproj.CoreCompileInputs.cache
+D:\All Coding Projects\satisfactoryhelper\Satisfactory Helper - Project\Satisfactory Helper\obj\Debug\Satisfactory Helper.exe
+D:\All Coding Projects\satisfactoryhelper\Satisfactory Helper - Project\Satisfactory Helper\obj\Debug\Satisfactory Helper.pdb
