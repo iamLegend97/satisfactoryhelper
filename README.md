@@ -1,4 +1,4 @@
-# iamLegend's Satisfactory Helper
+# iamLegend's Satisfactory Helper [NO LONGER BEING UPDATED](https://github.com/iamLegend97/satisfactoryhelpersite "Webapp Version")
 ## A helper for satisfactory calculations
 
 __If you just want to run the program__
@@ -9,14 +9,6 @@ __If you just want to run the program__
 __If you want to download the project__
 - Download Satisfactory Helper - Project
 - It was written in C# using VisualStudio and WindowsForms. You should be able to open the .sln and start editing/viewing it.
-
-__Currently not supported (plan to include in future):__
-- Specific building overclocking/downclocking. **_(In progress)_**
-- Changing item/building ratios. This is relevant if you're interesting power efficiency. For example achieving 30 ingots/min can be achieved with 1 or 2 (or more) machines, with each added machine improving power efficiency, but this was too much to do for the time being.
-- Related to the last point: setting an overall clock on a machine type.
-- Alternative recipe options from HDD's
-- Adding materials after tier 3
-- Tree which shows heirarachy of buildings and where all their outputs go
 
 ![alt text](https://github.com/iamLegend97/satisfactoryhelper/blob/master/satisfactory%20helper%20v1.1.JPG)
 
